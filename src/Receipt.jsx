@@ -43,7 +43,7 @@ export default class Receipt extends React.Component {
     const search = parseSearch(this.props.location.search);
     const currency = search.currency || "USD";
     const {trx_id} = this.props.match.params;
-    const receipt = await eosReceipt(trx_id, currency);
+    const receipt = await eosReceipt(trx_id, currency, {api: "https://api.eosn.io"});
     const [date, time] = receipt.block_time.split("T");
     const value = receipt.value.toFixed(2);
     const memo = search.memo || receipt.memo;

@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "EOS Receipt UI",
   "main": "index.js",
+  "homepage": "https://eosreceipt.io",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
@@ -20,12 +21,18 @@
   ],
   "license": "MIT",
   "dependencies": {
-    "eos-receipt": "*",
+    "eos-receipt": "1.1.x",
     "react": "16.x",
     "react-dom": "16.x",
     "react-router-dom": "*"
   },
   "devDependencies": {
-    "react-scripts": "1.x"
-  }
+    "react-scripts": "2.x"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
 }

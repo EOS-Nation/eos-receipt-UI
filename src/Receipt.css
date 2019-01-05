@@ -26,7 +26,8 @@
     flex-direction: column;
     padding-top: 33px;
     padding-bottom: 88px;
-    background-image: url('https://pagedraw-images.s3-us-west-1.amazonaws.com/1797522685748489-1536390443738-73798CC3-4B82-4276-8782-6BD26A3859F6.png');
+    background: white;
+    /* background-image: url('https://pagedraw-images.s3-us-west-1.amazonaws.com/1797522685748489-1536390443738-73798CC3-4B82-4276-8782-6BD26A3859F6.png'); */
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -105,7 +106,7 @@
     height: 57px;
     flex-shrink: 0;
     margin-left: 55px;
-    background-image: url('https://pagedraw-images.s3-us-west-1.amazonaws.com/1564997083685722-1536390443393-9308863A-0AE9-4A3C-B5BE-AB4C44C9414C.png');
+    /* background-image: url('https://pagedraw-images.s3-us-west-1.amazonaws.com/1564997083685722-1536390443393-9308863A-0AE9-4A3C-B5BE-AB4C44C9414C.png'); */
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -556,7 +557,7 @@
 
 .receipt-uw-l-9 {
     width: 145px;
-    background-image: url('https://ucarecdn.com/0ef4c3db-cda0-4620-a77a-10894c1f7b43/');
+    background-image: url('eos-receipt.png');
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -572,7 +573,7 @@
 
 .receipt-eos-nation-logo-2 {
     width: 145px;
-    background-image: url('https://ucarecdn.com/752ce992-1417-4e81-a289-dbfbe277a505/');
+    background-image: url('eosnation.png');
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -588,7 +589,7 @@
 
 .receipt-eos-tribe-logo-9 {
     width: 145px;
-    background-image: url('https://ucarecdn.com/45500910-f396-4eac-8e9b-f9b1fa26e320/');
+    background-image: url('eostribe.png');
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
